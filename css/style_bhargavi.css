@@ -1,0 +1,89 @@
+header {
+  display: flex;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+header div {
+  flex-grow: 1;
+  padding-top: 2px;
+}
+
+header div:nth-child(2) {flex-grow: 3; text-align: right; padding-right: 19px;}
+
+header div:nth-child(3) {text-align: center; background-color: #347AAD; color: white;font-size: 1.25em;}
+
+header div ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header div ul li {
+  list-style-type: none;
+  color: #347AAD;
+}
+
+header nav {
+  padding-top: 12px;
+}
+
+nav a, footer a, .header-content-last {
+  color: white;
+}
+
+footer {
+  display: flex;
+  background-color: #347AAD;
+}
+
+footer div {
+  color: white;
+  flex-grow: 1;
+  padding: 60px;
+}
+
+footer div ul li {
+  list-style-type: none;
+}
+
+.header-content-firstlink {
+  border-right: 1px solid black;
+  padding: 5px;
+}
+
+.header-content-links {
+  border-right: 1px solid black;
+  padding: 5px;
+}
+
+.header-content-lastlink {
+  padding: 5px;
+}
+
+.header-content-last {
+  position: relative;
+  top: 25px;
+}
+
+.main-section-tags {
+  display: flex;
+}
+
+.main-section-tags a {
+  padding: 15px;
+  color: #347AAD;
+}
+
+.main-section-tags a:first-child {background-color:  #347AAD;color: white;}
+
+.main-section-tags a:hover {
+  background-color:  #347AAD;
+  color: white;
+}
+
+.footer-content {
+  border-bottom: 1px solid white;
+}
+
+.footer-content-links {
+  margin-top: 5px;
+}

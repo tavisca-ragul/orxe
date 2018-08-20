@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+	margin: 0px auto;
+	max-width: 1024px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.search-box {
+	background: url("../images/searchbox_background.png") no-repeat;
+	width: 100%;
+	padding : 2% 0%;
+	color: #6B7783;
+}
+
+.search-box .ad-offers {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: auto;
+	padding: 1%;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	width: 73%;
+	color: #2B547C;
+}
+
+.search-box .container {
+	width: 75%;
+	margin: 2% auto;
+}
+
+.search-box .products-nav {
+	width: 100%;
+	background: #0C2640;
+}
+
+.search-box .products-nav-item {
+	display: inline-block;
+	width: 18%;
+	padding: 2% 0%;
+	text-align: center;
+}
+
+.search-box .products-nav-item a {
+	color: #6B7783;
+}
+
+.search-box .products-nav-item:hover, 
+.search-box .nav-active, 
+.search-box .form-container {
+	background: #FFFFFF;
+}
+
+.search-box .products-nav-item:hover a, 
+.search-box .nav-active a {
+	color: #0C2640;
+}
+
+.search-box .form-container h2 {
+	padding: 3% 1% 0% 1%;
+}
+
+.search-box .form-tab {
+	margin: 1%;
+	border-bottom: 1px solid #6B7783;
+}
+
+.search-box .form-tab-item a {
+	color: #FFFFFF;
+	font-size: 10px;
+}
+
+.search-box .form-tab-item {
+	display: inline-block;
+	width: 15%;
+	padding: 1.5% 0%;
+	border: 0.5px solid #6B7783;
+	text-align: center;
+	background: #3549C9;
+}
+
+.search-box .tab-active, 
+.search-box .form-tab-item:hover {
+	background: #FFFFFF; 
+}
+
+.search-box .tab-active a, 
+.search-box .form-tab-item:hover a {
+	color: #3549C9;
+}
+
+.search-box .panel-one {
+    display: block;
+    padding: 1%;
+    border: 0px;
+}
+
+.search-box .panel-one .panel-element {
+	display: inline-block;
+	width: 29%;
+}
+
+.search-box .panel-one .panel-element:nth-child(3), 
+.search-box .panel-one .panel-element:last-child {
+	width: 20%;
+}
+
+.search-box .panel-one .panel-element input[type=text] {
+	width: 95%;
+	padding: 3% 0%;
+}
+
+.search-box .panel-one .panel-element input[type=date] {
+	width: 93%;
+	padding: 3% 0%;
+}
+
+.search-box .panel-two {
+    display: block;
+    padding: 1%;
+    border: 0px;
+}
+
+.search-box .panel-two .panel-element {
+	display: inline-block;
+	width : 25%;
+}
+
+.search-box .panel-two .panel-element select {
+	width: 95%;
+	padding: 3% 0%;
+}
+
+.search-box .fieldset-message {
+	padding: 0% 1%;
+	color: #3549C9;
+	font-size: 12px;
+}
+
+.search-box .fieldset-more-options {
+	display: block;
+	padding: 1.5%;
+	border: 0px;
+}
+
+.search-box .fieldset-more-options a {
+	color: #3549C9;
+}
+
+.search-box .btn-container {
+	display: flex;
+	justify-content: flex-end;
+	padding: 2%;
+}
+
+.search-box .search-flights-btn {
+	background: #FFC300;
+	padding: 0.5% 5%;
+	border-bottom: 5px groove #FFC290;
+}
+
+.search-box .flight-search-form .one-way-tab {
+	display: none;
+}
+
+.search-box .flight-search-form .multiple-destination-tab {
+	display: none;
+}
+
+.search-box .form-container .hotel-search-form {
+	display: none;
+}
+
+.search-box .form-container .car-search-form {
+	display: none;
+}
+
+.search-box .form-container .activity-search-form {
+	display: none;
+}

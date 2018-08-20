@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ORXe 2.0</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./css/style_ragul.css">
+		<link rel="stylesheet" type="text/css" href="./css/style_nihit.css">
+		<link rel="stylesheet" type="text/css" href="./css/style_bhargavi.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- Bhargavi Start -->
+		<header>
+		  <div>
+		      <img src="./images/logo.png" alt = "logo" height="78px" />
+		  </div>
+		  <div>
+		      <p> Team Blue</p>
+		      <p> 500,000 Points </p>
+		      <nav>
+		          <ul>
+		              <a href="#"><li class="header-content-firstlink">Rewards Home</li></a>
+		              <a href="#"><li class="header-content-links">Profile</li></a>
+		              <a href="#"><li class="header-content-links">My Trips</li></a>
+		              <a href="#"><li class="header-content-lastlink">Sign Out</li></a>
+		          </ul>
+		    </nav>
+		  </div>
+		  <div>
+		      <a  href="#" class="header-content-last"> My Itinerey &#8250; </a>
+		  </div>
+		</header>
+		<nav class="main-section-tags">
+			<a  href="#">Flights</a>
+			<a  href="#">Hotels</a>
+			<a  href="#">Cars</a>
+			<a  href="#">Activities</a>
+			<a  href="#">Cruise Specials</a>
+			<a  href="#">Deals</a>
+		</nav>
+		<!-- Bhargavi End -->
+
+		<!-- Ragul Start -->
+		<section>
+			<section class="search-box">
+				<div class="ad-offers">
+					<h2>Spread your wings and discover your destinations!</h2>
+					<h5>View Offers</h5>				
+				</div>
+				<section class="container">
+					<nav class="products-nav">
+						<div class="products-nav-item nav-active">
+							<a href="#">
+								<i class = "fa fa-plane"></i>
+								<span>Flight</span>
+							</a>
+						</div>
+						<div class="products-nav-item">
+							<a href="#">
+								<i class = "fa fa-hotel"></i>
+								<span>Hotel</span>
+							</a>
+						</div>
+						<div class="products-nav-item">
+							<a href="#">
+								<i class = "fa fa-car"></i>
+								<span>Car</span>
+							</a>
+						</div>
+						<div class="products-nav-item">
+							<a href="#">
+								<i class = "fa fa-binoculars"></i>
+								<span>Activity</span>
+							</a>
+						</div>
+					</nav>
+					<div class="form-container">
+						<form class="flight-search-form">
+							<h2>Search for Flights</h2>
+							<div class="form-tab">
+								<div class="form-tab-item tab-active">
+									<a href="#">Round Trip</a>
+								</div>
+								<div class="form-tab-item">
+									<a href="#">One Way Trip</a>
+								</div>
+								<div class="form-tab-item">
+									<a href="#">Multiple Destination</a>
+								</div>
+							</div>
+							<div class="round-trip-tab">
+								<fieldset class="panel-one">
+									<div class="panel-element">
+										<label for="departureCity">Departure City</label><br>
+										<input type="text" id="departureCity" autocomplete="off">	
+									</div>
+									<div class="panel-element">
+										<label for="destinationCity">Destination City</label><br>
+										<input type="text" id="destinationCity" autocomplete="off">	
+									</div>
+									<div class="panel-element">
+										<label for="departureDate">Departure Date</label><br>
+										<input type="date" id="departureDate" autocomplete="off">	
+									</div>
+									<div class="panel-element">
+										<label for="returnDate">Return Date</label><br>
+										<input type="date" id="returnDate" autocomplete="off">
+									</div>
+								</fieldset>
+								<fieldset class="panel-two">
+									<div class="panel-element">
+										<label for="adults">Adults (18+)</label><br>
+										<select id="adults">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+										</select>
+									</div>
+									<div class="panel-element">
+										<label for="youths">Youths (12-17)</label><br>
+										<select id="youths">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+										</select>
+									</div>
+									<div class="panel-element">
+										<label for="children">Children (0-11)</label><br>
+										<select id="children">
+											<option value="0">0</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+										</select>
+									</div>
+								</fieldset>
+								<span class="fieldset-message">Age Information</span>
+								<fieldset class="fieldset-more-options"><a href="#">More Options++</a></fieldset>
+								<div class="btn-container">
+									<input type="submit" id="searchFlightsBtn" class="search-flights-btn" value="Search Flights">
+								</div>
+							</div>
+							<div class="one-way-tab">
+								
+							</div>
+							<div class="multiple-destination-tab">
+								
+							</div>
+						</form>
+						<form class="hotel-search-form">
+							
+						</form>
+						<form class="car-search-form">
+							
+						</form>
+						<form class="activity-search-form">
+							
+						</form>
+					</div>
+				</section>
+			</section>
+			<!-- Ragul End -->
+
+			<!-- Nihit Start -->
+			<section>
+				<article class="cards-container">
+					<img class="cards" src="images/first_image.png" alt="first_image">
+					<img class="cards" src="images/second_image.png" alt="second_image">
+					<img class="cards" src="images/third_image.png" alt="third_image">
+				</article>
+				<article class="deals">
+					<h3>DEAL FINDER</h3>
+				</article>
+				<article>
+					<input class="input-box" type="text">
+					<input class="button" type="submit" value="SEARCH">
+				</article>
+				<article class="result-container">
+					<p>Filter Results</p><br>
+					<div class="result-tabs">
+						<div class="current-tab">
+							<img class="image" src="images/first_logo.png" alt="logo">
+							<h4 class="txt">HOTEL</h4>
+							<input class="chkbox" type="checkbox" checked>
+						</div>
+						<div class="tab">
+							<img class="image" src="images/second_logo.png" alt="logo">
+							<h4 class="txt">CAR</h4>
+							<input class="chkbox" type="checkbox">
+						</div>
+						<div class="tab">
+							<img class="image" src="images/third_logo.png" alt="logo">
+							<h4 class="txt">CRUISE</h4>
+							<input class="chkbox" type="checkbox">
+						</div>
+					</div>
+				</article>
+				<article class="result-content">
+					<table>
+						<tr>
+							<th class="column">Destination</th>
+							<th class="name-column">Name</th>
+							<th class="column">Valid Through</th>
+							<th class="column">Offer</th>
+						</tr>
+						<tr class="line">
+							<td colspan=4><hr></td>
+						</tr>
+						<tr>
+							<td>Fort Myers Beach, US</td>
+							<td class="col">Wyndham Garden Fort Myers Beach</td>
+							<td>Jul 30,2018</td>
+							<td class="col">Save Up To 20%</td>
+						</tr>
+						<tr class="line">
+							<td colspan=4><hr></td>
+						</tr>
+						<tr>
+							<td>Oriando, US</td>
+							<td class="col">WorldQuest Oriando Resort</td>
+							<td>Aug 10,2018</td>
+							<td class="col">Save Up To 25%</td>
+						</tr>
+						<tr class="line">
+							<td colspan=4><hr></td>
+						</tr>
+						<tr>
+							<td>New York, US</td>
+							<td class="col">Sheraton New York Times Square Hotel</td>
+							<td>Aug 30,2018</td>
+							<td class="col">Save Up To 25%</td>
+						</tr>
+						<tr class="line">
+							<td colspan=4><hr></td>
+						</tr>
+						<tr>
+							<td>New York City, US</td>
+							<td class="col">Courtyard By Marriott New York Manhattan/Times Square</td>
+							<td>Aug 30,2018</td>
+							<td class="col">Up To 25% Off</td>
+						</tr>
+						<tr class="line">
+							<td colspan=4><hr></td>
+						</tr>
+						<tr>
+							<td>Puerto Vallarta, MX</td>
+							<td class="col">The Westin Resort & Spa Puerto Vallarta</td>
+							<td>Aug 30,2018</td>
+							<td class="col">Up To 40% Off</td>
+						</tr>
+						<tr class="line">
+							<td colspan=4><hr></td>
+						</tr>
+					</table>
+				</article>
+				<article class="link">
+					<a href="#">Load More</a>
+				</article>
+				<article class="deals-offers">
+					<img src="images/forth_image.png" alt="forth_image">
+				</article>
+			</section>
+		</section>
+		<!-- Nihit End -->
+
+		<!-- Bhargavi Start -->
+		<footer>
+			<div>
+				 <ul>
+				    <li class="footer-content">Main Navigation</li>
+				    <br>
+				    <a href="#"><li class="footer-content-links">Flights</li></a>
+				    <a href="#"><li class="footer-content-links">Hotels</li></a>
+					<a href="#"><li class="footer-content-links">Cars</li></a>
+					<a href="#"><li class="footer-content-links">Activities</li></a>
+					<a href="#"><li class="footer-content-links">Cruise</li></a>
+					<a href="#"><li class="footer-content-links">Deals</li></a>
+				 </ul>
+			</div>
+			<div>
+				 <ul>
+				     <li class="footer-content">Other Links</li>
+				     <br>
+				     <a href="#"><li class="footer-content-links" >Frequently Ask Questions</li></a>
+				     <a href="#"><li class="footer-content-links">Frequently Ask Questions</li></a>
+				     <a href="#"><li class="footer-content-links">Seller of Travel</li></a>
+				     <a href="#"><li class="footer-content-links">Website Terms of Use</li></a>
+				     <a href="#"><li class="footer-content-links">Travel Terms & Conditions</li></a>
+				     <a href="#"><li class="footer-content-links">Privacy Policy</li></a>
+				 </ul>
+			</div>
+		</footer>
+		<!-- Bhargavi End -->
+	</body>
+</html>

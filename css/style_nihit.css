@@ -1,0 +1,124 @@
+.cards-container {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+
+.cards {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.deals {
+	width: 800px;
+	margin: 15px auto;
+	padding-left: 15px;
+	background-color: gray;
+	color: white;
+}
+
+.input-box {
+	width: 550px;
+	height:20px;
+	margin-left: 110px;
+}
+
+.button {
+	margin-left: 50px;
+	height: 25px;
+	width: 100px;
+	background-color: #347AAD;
+	color: white;
+}
+
+.result-container {
+	width: 800px;
+	margin: 15px auto;
+	color: gray;
+}
+
+.result-tabs {
+	display: flex;
+}
+
+.current-tab {
+	display: flex;
+	width: 160px;
+	height: 40px;
+	background-color: #347AAD;
+	color: white;
+}
+
+.tab {
+	display: flex;
+	width: 160px;
+	height: 40px;
+	margin-left: 5px;
+	background-color: gray;
+	color: white;
+}
+
+.image {
+	padding-left: 8px;
+}
+
+.txt {
+	margin: 4px;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+
+.chkbox {
+	margin: 13px;
+}
+
+.result-content {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.result-content th {
+	text-align: left;
+}
+
+.result-content tr {
+	height: 40px;
+}
+
+.result-content table {
+	color: gray;
+}
+
+.column {
+	width: 160px;
+}
+
+.name-column {
+	width: 320px;
+}
+
+.line {
+	height: 5px;
+}
+
+.col {
+	color: #347AAD;
+}
+
+.link {
+	padding: 20px;
+	text-align: center;
+}
+
+.link a {
+	color: gray;
+}
+
+.deals-offers {
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
